@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+.grid-container {
+ 	display: grid;
+ 	grid-template-columns: 175px auto auto;
+ 	border-top: 2px solid rgba(255, 0, 0, 1);
+ 	border-left: 2px solid rgba(255, 0, 0, 1);
+ 	border-right: 2px solid rgba(0, 0, 0, 1);
+ 	border-bottom: 2px solid rgba(0, 0, 0, 1);
+ 	background-color: rgba(254, 170, 254, 1);
+ 	grid-gap: 1px;
+ 	padding: 1px;
+}
+.grid-item {
+	border-top: 1px solid rgba(0, 0, 0, 1);
+	border-left: 1px solid rgba(0, 0, 0, 1);
+	border-right: 1px solid rgba(255, 0, 0, 1);
+	border-bottom: 1px solid rgba(255, 0, 0, 1);
+	font-size: 16px;
+ 	text-align: left;
+}
+p{
+
+	text-align: center;
+  
+}
+
+
+</style>
+</head>
+<body>
+<p><b>Mr. Henrich's Class Schedule</b></p>
+
+<div class="grid-container">
+	<div class="grid-item" style="text-align: center"><b>Class</b></div>
+	<div class="grid-item" style="text-align: center"><b>Room</b></div>
+	<div class="grid-item" style="text-align: center"><b>Time</b></div>
+	<div class="grid-item" style="text-align: center">GLC201-01</div>
+	<div class="grid-item">1st Floor, Room 101</div>
+	<div class="grid-item">8:25 AM to 9:45 AM</div>
+	<div class="grid-item" style="text-align: center">ICE4M1-01</div>
+	<div class="grid-item">2nd Floor, Room 224</div>
+	<div class="grid-item">12:10 PM 1:25 PM</div>
+	<div class="grid-item" style="text-align: center">ICS4M1-01</div>
+	<div class="grid-item">2nd Floor, Room 224</div>
+	<div class="grid-item">12:10 PM 1:25 PM</div>
+ 	<div class="grid-item" style="text-align: center">ICE3M1-01</div>
+	<div class="grid-item">2nd Floor, Room 224</div>
+	<div class="grid-item">1:25 PM 2:45 PM</div>
+</div>
+</body>
+</html>
